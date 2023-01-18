@@ -11,28 +11,31 @@ h3 {
 }
 h1  {
     text-align: center;
-    width: 80%;
+    width: 60%;
 }
 #menu-lateral {
     float:left;
     width: 7%;
-    padding:6px;
-    border:4px solid rgb(98, 68, 3);
+    padding:4px;
+    border:4px solid rgb(255, 255, 255);
     background-color: white;
-
+    border-collapse:collapse;
 }
-#menu-lateral li  {
+#menu-lateral li {
 display: block;
 width:90%; 
 background-color: rgb(52, 193, 52);
-background:linear-gradient(top, rgb(9, 162, 57), rgb(243, 243, 243));
-
+background:linear-gradient( rgb(255, 255, 255), rgb(76, 192, 103));
 padding: 2px;
 border:4px solid rgb(255, 255, 255);
 }
+#menu-lateral li:hover {
+    background: pink;
+    border-left: 3px solid blue;
+}
 #textomarco {
     border:3px solid rgb(212, 207, 207);
-    padding:12px;
+    padding:18px;
     float:left;
     width: 78%;
     background-color: rgb(217, 219, 218);   
@@ -41,9 +44,11 @@ html {
     border: 15px solid #919191;
     border-radius:22px;
     min-height: 100%;
+    min-width: 100%;
 }
 #licencia {
-    position: left;
-    text-align: center;
-    float: center
+    width: 80vw; 
+    padding: 3px;
+    font-size: smaller;
+    float: center;
 }
